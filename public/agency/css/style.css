@@ -1812,6 +1812,8 @@ audio, video, canvas {
 
 .company-about{
     font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* ===================================
@@ -3406,4 +3408,29 @@ input.inputerror, textarea.inputerror, select.inputerror {
     100% {
         transform: translateX(-100%);
     }
+}
+
+.heading-text-container{
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top:15px; 
+    margin-bottom:25px;
+    text-align: center;
+    color: #002288;
+    border-bottom: 2px solid #002288; 
+}
+
+.heading-text{
+    color: #002288;
+}
+
+
+.giatri-box{
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    --e-column-margin-left: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    min-height: 270px;
 }
