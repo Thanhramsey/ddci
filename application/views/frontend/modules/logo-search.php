@@ -1,137 +1,181 @@
-<section class="logo-search">
-  <div class="container">
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 logo">
-      <a href="<?php echo base_url() ?>"><img src="<?php echo base_url() ?>public/images/smart-mobi2.png" alt="Logo Construction"></a>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 search">
-      <div class="contact-row">
-        <div class="phone inline">
-          <i class="icon fa fa-phone"></i> 0899.39.16.39
-        </div>
-        <div class="contact inline">
-          <i class="icon fa fa-envelope"></i>nhanmobile1996@gmail.com
-        </div>
-      </div>
-      <form action="search" method="get" role="form">
-        <div class="input-search">
-          <input type="text" class="form-control" id="search_text" name="search" placeholder="Nhập từ khóa để tìm kiếm...">
-          <button>
-             <!--  <ul class="search-quick">
-                <li>
-                  <a href="">
-                    <img src="https://cdn.tgdd.vn/Products/Images/42/196963/samsung-galaxy-a50-black-16-200x200.jpg">
-                    <h3>Samsung Galaxy A50 64GB</h3>
-                    <span class="price">6.990.000₫</span>
-                    <cite style="font-style: normal; text-decoration: line-through"></cite>
-                  </a>
-                </li>
-              </ul> -->
-              <i class="fa fa-search"></i>
-            </button>
-          </div>
-        </form>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 hidden-xs" style="padding: 24px;">
-       <!-- Cart -->
-       <div class="cart_header">
-        <a href="gio-hang" title="Giỏ hàng">
-         <span class="cart_header_icon">
-          <img src="<?php echo base_url() ?>public/images/cart2.png" alt="Cart">
-        </span>
-        <span class="box_text">
-          <strong class="cart_header_count">Giỏ hàng <span>(<?php
-           if($this->session->userdata('cart')){
-            $val = $this->session->userdata('cart');
-            echo count($val);
-          }else{
-            echo 0;
-          }
-          ?>)</span></strong>
-          <span class="cart_price">
-            <?php if($this->session->userdata('cart')):
-              $cart=$this->session->userdata('cart');
-              $money=0;
-              foreach ($cart as $key => $value) :
-                $row = $this->Mproduct->product_detail_id($key);?>
-                <?php
-                $total=0;
-                if($row['price_sale'] > 0){
-                  $total=$row['price_sale']*$value;
-                }else{
-                  $total=$row['price'] * $value;
-                }
-                $money+=$total;
-                ?>
-              <?php endforeach; ?>
-              <?php echo number_format($money).' VNĐ';?>
-              <?php else : ?>
-                <p>0 VNĐ</p>
-              <?php endif; ?>
-            </span>
-          </span>
-        </a>
-        <div class="cart_clone_box">
-          <div class="cart_box_wrap hidden">
-           <div class="cart_item original clearfix">
-            <div class="cart_item_image">
+<header class="cursor-light">
+
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon alt-font">
+        <div class="container">
+            <a class="logo link scroll" href="javascript:void(0)" title="Logo">
+                <img alt="logo" class="logo-dark default" src="<?php echo base_url() ?>/public/agency/img/logo.png">
+            </a>
+
+            <!--Nav Links-->
+            <div class="collapse navbar-collapse" id="agency">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link link scroll active" href="#home">Trang chủ</a>
+                    <a class="nav-link link scroll" href="#about-us">Giới thiệu</a>
+                    <a class="nav-link link scroll" href="#team">Hội đồng đánh giá</a>
+                    <a class="nav-link link scroll" href="#blog">Tin tức</a>
+                    <a class="nav-link link scroll" href="#blog">Báo cáo, thống kê</a>
+                    <a class="nav-link link scroll" href="#contact">Liên Hệ</a>
+                    <span class="menu-line"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
+                </div>
             </div>
-            <div class="cart_item_info">
-             <p class="cart_item_title"><a href="" title=""></a></p>
-             <span class="cart_item_quantity"></span>
-             <span class="cart_item_price"></span>
-             <span class="remove"></span>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
-   <!-- End Cart -->
-   <!-- Account -->
-   <div class="user_login">
-     <a href="thong-tin-khach-hang" title="Tài khoản">
-      <div class="user_login_icon">
-       <img src="<?php echo base_url() ?>public/images/user.png" alt="Cart">
-     </div>
-     <div class="box_text">
-       <strong>Tài khoản</strong>
-       <!--<span class="cart_price">Đăng nhập, đăng ký</span>-->
-     </div>
-   </a>
- </div>
-</div>
-</div>
-</section>
-<!-- <script>
-  $(document).ready(function(){
 
-   load_data();
-   var strurl="<?php echo base_url();?>"+'/search/quick';
-   function load_data(query)
-   {
-    $.ajax({
-      url: strurl,
-      method:"POST",
-      data:{query:query},
-      success:function(data){
-        if(data){
-          $('#result').html(data);
-        }else{
-          $('#result').html(data);
-        }
-      }
-    })
-  }
+            <!--Menu Button-->
+            <button class="fullnav-toggler link" id="full-menu-1" type="button">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
 
-  $('#search_text').keyup(function(){
-    var search = $(this).val();
-    if(search != '')
-    {
-     load_data(search);
-   }
-   else
-   {
-     load_data();
-   }
- });
-});
-</script> -->
+            <!--Slider Social-->
+            <!-- <div class="slider-social">
+			<ul class="list-unstyled">
+				<li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
+							aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
+				<li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
+							aria-hidden="true" class="fab fa-instagram"></i></a></li>
+				<li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
+							aria-hidden="true" class="fab fa-twitter"></i></a></li>
+			</ul>
+		</div> -->
+
+        </div>
+    </nav>
+
+    <!--Full menu-->
+    <div class="nav-holder main style-2 alt-font">
+
+        <!--Menu Button-->
+        <button class="fullnav-close link" type="button">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+
+        <div class="container">
+            <div class="shape-left">
+                <nav class="navbar full-menu-navigation left">
+                    <ul class="list-unstyled">
+                        <li><a class="link scroll" href="#home">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">Home</span>
+                            </a></li>
+                        <li><a class="link scroll" href="#about-us">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">About</span>
+                            </a></li>
+                        <li><a class="link scroll" href="#portfolio">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">Work</span>
+                            </a></li>
+                        <li><a class="link scroll" href="#clients">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">Clients</span>
+                            </a></li>
+                        <li><a class="link scroll" href="#blog">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">Blog</span>
+                            </a></li>
+                        <li><a class="link scroll" href="#contact">
+                                <span class="anchor-circle"></span>
+                                <span class="anchor-text">Contact</span>
+                            </a></li>
+                    </ul>
+                    <span class="full-menu-dot" style="transform: scale(0);"></span>
+                </nav>
+                <img alt="shape" src="<?php echo base_url() ?>/public/agency/img/shape-8.png">
+            </div>
+            <div class="shape-right">
+                <div class="full-menu-detail hide-cursor">
+                    <h6 class="title">Thông tin liên hệ</h6>
+                    <p><i class="fas fa-user-alt"></i> Đơn vị chủ trì: Viện Nghiên cứu phát triển tỉnh Gia Lai</p>
+                    <p><i class="fas fa-mobile-alt"></i>Điện thoại: (+84) 234 6559 666</p>
+                    <p><i class="fas fa-envelope"></i>Email: vncpt@thuathienhue.gov.vn</p>
+                </div>
+                <img alt="shape" src="<?php echo base_url() ?>/public/agency/img/shape-7.png">
+            </div>
+        </div>
+    </div>
+
+    <!--Get Quote Model Popup-->
+    <div class="animated-modal hidden quote-content" id="animatedModal">
+        <!--Heading-->
+        <div class="heading-area pb-2 mx-570">
+            <span class="sub-title">We are megaone company</span>
+            <h2 class="title mt-2">Lets start your <span class="alt-color js-rotating">project, website</span></h2>
+        </div>
+        <!--Contact Form-->
+        <form class="contact-form" id="modal-contact-form-data">
+            <div class="row">
+                <!--Result-->
+                <div class="col-12" id="quote_result"></div>
+
+                <!--Left Column-->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="quote_name" name="quoteName" placeholder="Name" required=""
+                            type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_contact" name="userPhone" placeholder="Contact #"
+                            required="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_type" name="projectType" placeholder="Project type"
+                            required="" type="text">
+                    </div>
+                </div>
+
+                <!--Right Column-->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="quote_email" name="userEmail" placeholder="Email" required=""
+                            type="email">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_address" name="userAddress" placeholder="City / Country"
+                            required="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_budget" name="quoteBudget" placeholder="Budget"
+                            required="" type="text">
+                    </div>
+                </div>
+
+                <!--Full Column-->
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea class="form-control" id="quote_message" name="userMessage"
+                            placeholder="Please explain your project in detail."></textarea>
+                    </div>
+                </div>
+
+                <!--Button-->
+                <div class="col-md-12">
+
+                    <div class="form-check">
+                        <label class="checkbox-lable">Contact by phone ins preffered
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <a class="btn btn-large btn-rounded btn-blue btn-hvr-pink modal_contact_btn"
+                        href="javascript:void(0);" id="quote_submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none"
+                            aria-hidden="true"></i><b>Send Message</b>
+                        <div class="btn-hvr-setting">
+                            <ul class="btn-hvr-setting-inner">
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+</header>

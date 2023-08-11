@@ -8,13 +8,11 @@
     <!-- Author -->
     <meta name="author" content="Themesindustry">
     <!-- description -->
-    <meta name="description"
-        content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 8 ready home page demos.">
+    <meta name="description" content="DDCI | HỆ THỐNG ĐÁNH GIÁ NĂNG LỰC CẠNH TRANH CÁC SỞ BAN NGÀNH & ĐỊA PHƯƠNG">
     <!-- keywords -->
-    <meta name="keywords"
-        content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, faq">
+    <meta name="keywords" content="DDCI | HỆ THỐNG ĐÁNH GIÁ NĂNG LỰC CẠNH TRANH CÁC SỞ BAN NGÀNH & ĐỊA PHƯƠNG">
     <!-- Page Title -->
-    <title>Agency | MegaOne HTML5 Template</title>
+    <title>DDCI | HỆ THỐNG ĐÁNH GIÁ NĂNG LỰC CẠNH TRANH CÁC SỞ BAN NGÀNH & ĐỊA PHƯƠNG</title>
     <!-- Favicon -->
     <link href="<?php echo base_url() ?>/public/agency/img/favicon.ico" rel="icon">
     <!-- Bundle -->
@@ -49,34 +47,20 @@
         <nav class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon alt-font">
             <div class="container">
                 <a class="logo link scroll" href="javascript:void(0)" title="Logo">
-                    <!--Logo Default-->
                     <img alt="logo" class="logo-dark default" src="<?php echo base_url() ?>/public/agency/img/logo.png">
                 </a>
-
 
                 <!--Nav Links-->
                 <div class="collapse navbar-collapse" id="agency">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-link link scroll active" href="#home">Home</a>
-                        <a class="nav-link link scroll" href="#about-us">About Us</a>
-                        <a class="nav-link link scroll" href="#portfolio">Our Work</a>
-                        <a class="nav-link link scroll" href="#clients">Clients</a>
-                        <a class="nav-link link scroll" href="#blog">Our Blog</a>
-                        <a class="nav-link link scroll" href="#contact">Contact Us</a>
+                        <a class="nav-link link scroll active" href="#home">Trang chủ</a>
+                        <a class="nav-link link scroll" href="#about-us">Giới thiệu</a>
+                        <a class="nav-link link scroll" href="#team">Hội đồng đánh giá</a>
+                        <a class="nav-link link scroll" href="#blog">Tin tức</a>
+                        <a class="nav-link link scroll" href="#blog">Báo cáo, thống kê</a>
+                        <a class="nav-link link scroll" href="#contact">Liên Hệ</a>
                         <span class="menu-line"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
                     </div>
-                    <a class="btn btn-medium btn-rounded btn-transparent-white btn-hvr-white ml-3"
-                        data-animation-duration="500" data-fancybox data-src="#animatedModal"
-                        href="javascript:void(0);">Get A Quote
-                        <div class="btn-hvr-setting">
-                            <ul class="btn-hvr-setting-inner">
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                            </ul>
-                        </div>
-                    </a>
                 </div>
 
                 <!--Menu Button-->
@@ -87,7 +71,7 @@
                 </button>
 
                 <!--Slider Social-->
-                <div class="slider-social">
+                <!-- <div class="slider-social">
                     <ul class="list-unstyled">
                         <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
                                     aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
@@ -96,7 +80,7 @@
                         <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
                                     aria-hidden="true" class="fab fa-twitter"></i></a></li>
                     </ul>
-                </div>
+                </div> -->
 
             </div>
         </nav>
@@ -146,10 +130,10 @@
                 </div>
                 <div class="shape-right">
                     <div class="full-menu-detail hide-cursor">
-                        <h6 class="title">Press Contact</h6>
-                        <p><i class="fas fa-user-alt"></i>David Warrior</p>
-                        <p><i class="fas fa-mobile-alt"></i>+97 53 49 24 78 36</p>
-                        <p><i class="fas fa-envelope"></i>contact@megaone.com</p>
+                        <h6 class="title">Thông tin liên hệ</h6>
+                        <p><i class="fas fa-user-alt"></i> Đơn vị chủ trì: Viện Nghiên cứu phát triển tỉnh Gia Lai</p>
+                        <p><i class="fas fa-mobile-alt"></i>Điện thoại: (+84) 234 6559 666</p>
+                        <p><i class="fas fa-envelope"></i>Email: vncpt@thuathienhue.gov.vn</p>
                     </div>
                     <img alt="shape" src="<?php echo base_url() ?>/public/agency/img/shape-7.png">
                 </div>
@@ -363,7 +347,7 @@
                             data-width="['650','650','600','500']" data-x="['center','center','center','center']"
                             data-y="['middle','middle','middle','middle']" id="slide-43-layer-13"
                             style="z-index: 13; min-width: 650px; max-width: 650px; white-space: nowrap; font-size: 70px; line-height: 80px; font-weight: 800; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;">
-                            Creative
+                            DDCI
                         </div>
 
                         <!-- LAYER NR. 10 -->
@@ -377,7 +361,7 @@
                             data-width="['650','650','600','500']" data-x="['center','center','center','center']"
                             data-y="['middle','middle','middle','middle']" id="slide-43-layer-11"
                             style="z-index: 14; min-width: 650px; max-width: 650px; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;">
-                            Digital Agency
+                            GIA LAI
                         </div>
 
                         <!-- LAYER NR. 11 -->
@@ -389,9 +373,10 @@
                             data-type="text" data-voffset="['80','75','65','57']" data-whitespace="normal"
                             data-width="['651','550','600','500']" data-x="['center','center','center','center']"
                             data-y="['middle','middle','middle','middle']" id="slide-43-layer-14"
-                            style="z-index: 15; min-width: 651px; max-width: 651px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
-                            Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the
-                            industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.
+                            style="z-index: 15; min-width: 651px; max-width: 651px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
+                            HỆ THỐNG ĐÁNH GIÁ
+                            NĂNG LỰC CẠNH TRANH
+                            CÁC SỞ BAN NGÀNH & ĐỊA PHƯƠNG
                         </div>
 
                         <!-- LAYER NR. 12 -->
@@ -404,9 +389,8 @@
                             data-width="['650','650','600','500']" data-x="['center','center','center','center']"
                             data-y="['middle','middle','middle','middle']" id="slide-43-layer-15"
                             style="z-index: 16; white-space: nowrap;">
-                            <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white"
-                                href="javascript:void(0);">Learn
-                                More
+                            <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white" href="javascript:void(0);">Khảo
+                                sát
                                 <div class="btn-hvr-setting">
                                     <ul class="btn-hvr-setting-inner">
                                         <li class="btn-hvr-effect"></li>
@@ -454,37 +438,41 @@
         </div><!-- END REVOLUTION SLIDER -->
     </section>
     <!--Slider End-->
-
+    <div class="text-container">
+        <h1 class="running-text">Đánh giá năng lực cạnh tranh cấp Sở, Ngành, Địa phương – DDCI GIA LAI</h1>
+    </div>
     <!--About Us-->
-    <section class="pb-0" id="about-us">
+    <section class="pb-0 pt-2" id="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 wow fadeInLeft">
-                    <div class="heading-area">
-                        <span class="sub-title">We are megaone company</span>
-                        <h2 class="title">We are making <span class="alt-color js-rotating">design, ideas</span> better
-                            for
-                            everyone</h2>
-                        <p class="para">There are many variations of passages of Lorem Ipsum available, but the majority
-                            have suffered alteration in some form, by injected humour, or randomised words which don't
-                            look
-                            even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
-                        <a class="btn btn-large btn-rounded btn-pink btn-hvr-blue mt-3" href="javascript:void(0);">Learn
-                            More
-                            <div class="btn-hvr-setting">
-                                <ul class="btn-hvr-setting-inner">
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                </ul>
-                            </div>
-                        </a>
+                    <div class="heading-area pt-5">
+                        <h2 class="title">Giới thiệu<span class="alt-color js-rotating">DDCI</span> GIA LAI</h2>
+                        <p class="para">Đánh giá năng lực điều hành kinh tế của chính quyền thông qua bộ công cụ đánh
+                            giá năng lực điều hành kinh tế của chính quyền các huyện, thị xã, thành phố và địa phương
+                            của tỉnh Gia Lai (tên gọi tiếng Anh là Gia Lai Department & District
+                            Competitiveness Index; tên gọi tắt là Bộ công cụ DDCI tỉnh Gia Lai) trên cơ sở thăm
+                            dò mức độ hài lòng của nhà đầu tư, doanh nghiệp; là cơ sở để sở, ban, ngành liên quan nghiên
+                            cứu giải pháp để nâng cao chỉ số năng lực cạnh tranh cấp tỉnh hàng năm, đồng thời đề xuất
+                            giải pháp nhằm chấn chỉnh, khắc phục những hạn chế, tồn tại của những lĩnh vực được khảo
+                            sát.</p>
                     </div>
+                    <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white mt-4" href="gioi-thieu">Xem
+                        thêm
+                        <div class="btn-hvr-setting">
+                            <ul class="btn-hvr-setting-inner">
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                            </ul>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-6 wow fadeInRight">
                     <div class="half-img mt-5 pt-4 mt-lg-0 pt-lg-0">
-                        <img alt="vector" src="<?php echo base_url() ?>/public/agency/img/vector-art-2.png">
+                        <img alt="vector" style="border-radius:20px"
+                            src="<?php echo base_url() ?>/public/agency/img/vector-art-2.png">
                     </div>
                 </div>
             </div>
@@ -495,77 +483,86 @@
     <!--Services Start-->
     <section id="services">
         <div class="container">
+            <div class="heading-text-container">
+                <h1 class="heading-text">Mục tiêu</h1>
+            </div>
             <div class="row">
                 <div class="col-md-3">
                     <div class="process-wrapp">
                         <span class="pro-step blue"><i aria-hidden="true" class="fas fa-folder-open"></i></span>
-                        <h4 class="service-heading">World leader in consulting and finance</h4>
+                        <h4 class="service-heading">Khảo sát DDCI trên cơ sở thăm
+                            dò mức độ hài lòng của nhà đầu tư, doanh nghiệp, hộ kinh doanh cá thể, hợp tác xã đang đầu
+                            tư, hoạt động sản xuất, kinh doanh trên địa bàn tỉnh.</h4>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="process-wrapp">
                         <span class="pro-step midnight"><i aria-hidden="true" class="fas fa-code"></i></span>
-                        <h4 class="service-heading">A focused team with a specialized skill</h4>
+                        <h4 class="service-heading">Tiếp tục tạo sự cạnh tranh, thi đua về chất lượng điều hành kinh tế
+                            giữa chính quyền các huyện, thành phố và các sở, ban, ngành, từ đó tạo động lực cải cách một
+                            cách quyết liệt, đồng bộ trong việc nâng cao chất lượng giải quyết thủ tục hành chính liên
+                            quan đến nhà đầu tư, doanh nghiệp; tạo môi trường thuận lợi cho hoạt động đầu tư, sản xuất
+                            kinh doanh trên các lĩnh vực.</h4>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="process-wrapp">
                         <span class="pro-step purple"><i aria-hidden="true" class="fas fa-cog"></i></span>
-                        <h4 class="service-heading">Trusted and professional advisors for you</h4>
+                        <h4 class="service-heading">Tạo kênh thông tin tin cậy, rộng rãi và minh bạch để nhà đầu tư,
+                            doanh nghiệp tham gia đóng góp ý kiến xây dựng chính quyền địa phương và các sở, ban, ngành.
+                        </h4>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="process-wrapp">
                         <span class="pro-step pink"><i aria-hidden="true" class="fas fa-edit"></i></span>
-                        <h4 class="service-heading">Experience to give you a better results</h4>
+                        <h4 class="service-heading">Trên cơ sở đó đánh giá công tác điều hành của chính quyền địa phương
+                            và các sở, ban, ngành trong năm, nghiên cứu giải pháp để nâng cao chỉ số năng lực cạnh tranh
+                            cấp tỉnh những năm tiếp theo, đồng thời đề xuất giải pháp nhằm chấn chỉnh, khắc phục những
+                            hạn chế, tồn tại của những lĩnh vực được khảo sát.</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- giá trị cốt loi -->
+            <div class="heading-text-container">
+                <h1 class="heading-text">Giá trị cốt lõi</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div style="width:35%;height:20px; background-color:red"></div>
+                    <div class="process-wrapp giatri-box">
+                        <h5 class="service-heading"><span style="color:red">CÔNG CỤ ĐÁNH GIÁ NĂNG LỰC ĐIỀU HÀNH:</span>
+                            Đánh giá năng lực điều hành
+                            kinh tế của các sở, ban, ngành và UBND các quận, thành phố.</h5>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div style="width:35%;height:20px; background-color:#47a6de"></div>
+                    <div class="process-wrapp giatri-box">
+                        <h5 class="service-heading"><span style="color:#47a6de">KÊNH THÔNG TIN TIN CẬY:</span> Tạo kênh
+                            thông tin tin cậy, rộng
+                            rãi và minh
+                            bạch để nhà đầu tư, doanh nghiệp tham gia đóng góp ý kiến xây dựng chính quyền
+                            địa phương và
+                            các sở, ban, ngành.</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="width:35%;height:20px; background-color: #fcb332"></div>
+                    <div class="process-wrapp giatri-box">
+                        <h5 class="service-heading"><span style="color: #fcb332;">LAN TỎA THÔNG ĐIỆP:</span>Tạo sự lan
+                            tỏa
+                            truyền thông mạnh mẽ về DDCI
+                            2022
+                            như là điểm nhấn quan trọng trong nỗ lực triển khai cải thiện môi trường đầu tư kinh
+                            doanh.
+                        </h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--Services End-->
-
-    <!--Counters Start-->
-    <section class="gradient-bg2" id="counters">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 pl-lg-4 order-lg-2 wow fadeInRight">
-                    <div class="heading-area">
-                        <span class="sub-title text-white">We are megaone company</span>
-                        <h2 class="title text-white">We have done some great <span class="js-rotating">stuff,
-                                idea</span>.
-                        </h2>
-                        <p class="para text-white">There are many variations of passages of Lorem Ipsum available, but
-                            the
-                            majority have suffered alteration in some form, by injected.</p>
-                    </div>
-                    <ul class="counter-list list-unstyled">
-                        <li class="counter-item">
-                            <i aria-hidden="true" class="fas fa-users text-white"></i>
-                            <h6 class="counter-number text-white"><span class="count">500</span>+</h6>
-                            <p class="sub-title text-white">Happy Clients</p>
-                        </li>
-                        <li class="counter-item">
-                            <i aria-hidden="true" class="fas fa-list-alt text-white"></i>
-                            <h6 class="counter-number text-white"><span class="count">1074</span>+</h6>
-                            <p class="sub-title text-white">Lines Of Code</p>
-                        </li>
-                        <li class="counter-item">
-                            <i aria-hidden="true" class="fas fa-award text-white"></i>
-                            <h6 class="counter-number text-white"><span class="count">600</span>+</h6>
-                            <p class="sub-title text-white">Project Completed</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 wow fadeInLeft">
-                    <div class="half-img mt-5 pt-4 mt-lg-0 pt-lg-0">
-                        <img alt="vector" src="<?php echo base_url() ?>/public/agency/img/vector-art-3.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Counters End-->
 
     <!--Team Start-->
     <section class="text-center" id="team">
@@ -574,11 +571,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading-area mx-570 mb-5">
-                        <span class="sub-title">We are megaone company</span>
-                        <h2 class="title">We have some <span class="alt-color js-rotating">great, ideal</span> talented
-                            staff</h2>
-                        <p class="para">There are many variations of passages of Lorem Ipsum available, but the majority
-                            have suffered alteration in some form, by injected.</p>
+                        <h2 class="title">HỘI ĐỒNG <span class="alt-color js-rotating">ĐÁNH GIÁ, THẨM ĐỊNH</span></h2>
                     </div>
                 </div>
             </div>
@@ -587,280 +580,70 @@
                 <div class="col-md-4">
                     <div class="team-item">
                         <!--Team Image-->
-                        <img alt="image" class="team-image"
-                            src="<?php echo base_url() ?>/public/agency/img/team-img1.png">
+                        <img alt="image" class="team-image" src="<?php echo base_url() ?>/public/agency/img/man.png">
                         <!--Name-->
                         <div class="name">
                             <img alt="shape" src="<?php echo base_url() ?>/public/agency/img/shape-10.png">
-                            <h6>David Joe</h6>
+                            <h6>Tên</h6>
                         </div>
                         <!--Designation-->
-                        <p class="designation mb-2">Director</p>
+                        <p class="designation mb-2">Chức vụ</p>
                         <!--Team Social-->
-                        <div class="team-social social-icon-bg-hvr">
-                            <a href="#"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="team-item">
                         <!--Team Image-->
-                        <img alt="image" class="team-image"
-                            src="<?php echo base_url() ?>/public/agency/img/team-img2.png">
+                        <img alt="image" class="team-image" src="<?php echo base_url() ?>/public/agency/img/woman.png">
                         <!--Name-->
                         <div class="name">
                             <img alt="shape" src="<?php echo base_url() ?>/public/agency/img/shape-9.png">
-                            <h6>Natalie Roy</h6>
+                            <h6>Tên</h6>
                         </div>
                         <!--Designation-->
-                        <p class="designation mb-2">Director</p>
-
-                        <!--Team Social-->
-                        <div class="team-social social-icon-bg-hvr">
-                            <a href="#"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                        </div>
+                        <p class="designation mb-2">Chức vụ</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="team-item">
                         <!--Team Image-->
-                        <img alt="image" class="team-image"
-                            src="<?php echo base_url() ?>/public/agency/img/team-img3.png">
+                        <img alt="image" class="team-image" src="<?php echo base_url() ?>/public/agency/img/man.png">
                         <!--Name-->
                         <!--Name-->
                         <div class="name">
                             <img alt="shape" src="<?php echo base_url() ?>/public/agency/img/shape-11.png">
-                            <h6>Jhon Wok</h6>
+                            <h6>Tên</h6>
                         </div>
                         <!--Designation-->
-                        <p class="designation mb-2">Director</p>
+                        <p class="designation mb-2">Chức vụ</p>
 
                         <!--Team Social-->
-                        <div class="team-social social-icon-bg-hvr">
+                        <!-- <div class="team-social social-icon-bg-hvr">
                             <a href="#"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
                             <a href="#"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a>
                             <a href="#"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                        </div>
+                        </div> -->
                     </div>
+                </div>
+            </div>
+            <div class="row wow fadeInUp mt-4">
+                <div class="col-md-8"></div>
+                <div class="col-md-4 text-right">
+                    <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white" href="javascript:void(0);">Xem thêm
+                        <div class="btn-hvr-setting">
+                            <ul class="btn-hvr-setting-inner">
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                                <li class="btn-hvr-effect"></li>
+                            </ul>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
     <!--Team End-->
-
-    <!--Parallax Start-->
-    <section class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 wow fadeInLeft">
-                    <div class="heading-area">
-                        <span class="sub-title">We are megaone company</span>
-                        <h2 class="title"><span class="main-color js-rotating">Robust Design, Creative Idea</span> and
-                            Development Solutions</h2>
-                        <p class="para">There are many variations of passages of Lorem Ipsum available, but the majority
-                            have suffered alteration in some form, by injected humour, or randomised words which don't
-                            look
-                            even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
-                        <a class="btn btn-large btn-rounded btn-blue btn-hvr-pink mt-3" href="javascript:void(0);">Learn
-                            More
-                            <div class="btn-hvr-setting">
-                                <ul class="btn-hvr-setting-inner">
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInRight">
-                    <div class="half-img mt-5 pt-4 mt-lg-0 pt-lg-0">
-                        <img alt="image" src="<?php echo base_url() ?>/public/agency/img/vector-art-4.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Parallax End-->
-
-    <!--Portfolio Start-->
-    <section class="cube-portfolio1 text-center no-transition" id="portfolio">
-        <div class="container">
-            <!--Row-->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="heading-area mx-570 mb-lg-4 mb-3">
-                        <span class="sub-title">We are megaone company</span>
-                        <h2 class="title">We have <span class="alt-color js-rotating">designed, developed</span> some
-                            great
-                            projects</h2>
-                        <p class="para">There are many variations of passages of Lorem Ipsum available, but the majority
-                            have suffered alteration in some form, by injected.</p>
-                    </div>
-                </div>
-            </div>
-            <!--Row-->
-            <div class="row wow fadeIn">
-                <div class="col-md-12">
-
-                    <!--Portfolio Filters-->
-                    <div class="cbp-l-filters-button" id="js-filters-mosaic-flat">
-
-                        <div class="cbp-filter-item-active cbp-filter-item" data-filter="*">All</div>
-                        <span class="text-blue">/</span>
-                        <div class="cbp-filter-item" data-filter=".graphic">Graphic Design</div>
-                        <span class="text-blue"> / </span>
-                        <div class="cbp-filter-item" data-filter=".web-design">Web design</div>
-                        <span class="text-blue"> / </span>
-                        <div class="cbp-filter-item" data-filter=".graphic">SEO</div>
-                        <span class="text-blue"> / </span>
-                        <div class="cbp-filter-item" data-filter=".marketing">Marketing</div>
-                    </div>
-
-                    <!--Portfolio Items-->
-                    <div class="cbp cbp-l-grid-mosaic-flat" id="js-grid-mosaic-flat">
-
-                        <div class="cbp-item web-design graphic">
-                            <a class="cbp-caption cbp-lightbox"
-                                href="<?php echo base_url() ?>/public/agency/img/work-1.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="<?php echo base_url() ?>/public/agency/img/work-1.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Latest Work</h5>
-                                        <p class="text-white">See Our Amazing Work</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-                        <div class="cbp-item seo marketing">
-                            <a class="cbp-caption cbp-lightbox"
-                                href="<?php echo base_url() ?>/public/agency/img/work-2.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-2" src="<?php echo base_url() ?>/public/agency/img/work-2.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Latest Work</h5>
-                                        <p class="text-white">See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="cbp-item seo marketing">
-                            <a class="cbp-caption cbp-lightbox"
-                                href="<?php echo base_url() ?>/public/agency/img/work-3.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-4" src="<?php echo base_url() ?>/public/agency/img/work-3.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Latest Work</h5>
-                                        <p class="text-white">See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="cbp-item graphic seo marketing">
-                            <a class="cbp-caption cbp-lightbox"
-                                href="<?php echo base_url() ?>/public/agency/img/work-4.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-3" src="<?php echo base_url() ?>/public/agency/img/work-4.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Latest Work</h5>
-                                        <p class="text-white">See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="cbp-item web-design graphic">
-                            <a class="cbp-caption cbp-lightbox"
-                                href="<?php echo base_url() ?>/public/agency/img/work-5.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-5" src="<?php echo base_url() ?>/public/agency/img/work-5.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Latest Work</h5>
-                                        <p class="text-white">See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="cbp-item seo marketing graphic ">
-                            <a class="cbp-caption cbp-lightbox"
-                                href="<?php echo base_url() ?>/public/agency/img/work-6.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-6" src="<?php echo base_url() ?>/public/agency/img/work-6.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Latest Work</h5>
-                                        <p class="text-white">See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="cbp-item web-design seo">
-                            <a class="cbp-caption cbp-lightbox"
-                                href="<?php echo base_url() ?>/public/agency/img/work-7.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-7" src="<?php echo base_url() ?>/public/agency/img/work-7.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Latest Work</h5>
-                                        <p class="text-white">See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="cbp-item web-design graphic">
-                            <a class="cbp-caption cbp-lightbox"
-                                href="<?php echo base_url() ?>/public/agency/img/work-8.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-8" src="<?php echo base_url() ?>/public/agency/img/work-8.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Latest Work</h5>
-                                        <p class="text-white">See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Portfolio End-->
 
     <!--Testimonial Start-->
     <section class="gradient-bg1 text-center" id="clients">
@@ -870,177 +653,76 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading-area mx-570 mb-5">
-                        <h2 class="title text-white m-0">Some <span class="js-rotating">great, ideal</span> words from
-                            our clients</h2>
+                        <h2 class="title text-white m-0">Các tiêu chí <span class="js-rotating">DDCI</span>
+                        </h2>
                     </div>
                 </div>
             </div>
 
             <!--Row-->
             <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel wow zoomIn" id="testimonial-slider">
-                        <div class="item">
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                tincidunt
-                                egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
-                                ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Fusce ut diam quis nulla faucibus venenatis. </p>
-                            <h5 class="name gradient-text1">David Villas</h5>
-                            <span class="designation">Designer, Company Name</span>
-                            <ul class="ratings list-unstyled">
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="item">
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                tincidunt
-                                egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
-                                ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Fusce ut diam quis nulla faucibus venenatis. </p>
-                            <h5 class="name gradient-text1">David Villas</h5>
-                            <span class="designation">Designer, Company Name</span>
-                            <ul class="ratings list-unstyled">
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="item">
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                tincidunt
-                                egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
-                                ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Fusce ut diam quis nulla faucibus venenatis. </p>
-                            <h5 class="name gradient-text1">David Villas</h5>
-                            <span class="designation">Designer, Company Name</span>
-                            <ul class="ratings list-unstyled">
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="item">
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                tincidunt
-                                egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
-                                ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Fusce ut diam quis nulla faucibus venenatis. </p>
-                            <h5 class="name gradient-text1">David Villas</h5>
-                            <span class="designation">Designer, Company Name</span>
-                            <ul class="ratings list-unstyled">
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="item">
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                tincidunt
-                                egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
-                                ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Fusce ut diam quis nulla faucibus venenatis. </p>
-                            <h5 class="name gradient-text1">David Villas</h5>
-                            <span class="designation">Designer, Company Name</span>
-                            <ul class="ratings list-unstyled">
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="item">
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                tincidunt
-                                egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
-                                ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Fusce ut diam quis nulla faucibus venenatis. </p>
-                            <h5 class="name gradient-text1">David Villas</h5>
-                            <span class="designation">Designer, Company Name</span>
-                            <ul class="ratings list-unstyled">
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="item">
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                tincidunt
-                                egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
-                                ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Fusce ut diam quis nulla faucibus venenatis. </p>
-                            <h5 class="name gradient-text1">David Villas</h5>
-                            <span class="designation">Designer, Company Name</span>
-                            <ul class="ratings list-unstyled">
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="item">
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                tincidunt
-                                egestas nunc, at pellentesque arcu sollicitudin et. Aliquam hendrerit diam quis ipsum
-                                ultricies, quis ultricies arcu suscipit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Fusce ut diam quis nulla faucibus venenatis. </p>
-                            <h5 class="name gradient-text1">David Villas</h5>
-                            <span class="designation">Designer, Company Name</span>
-                            <ul class="ratings list-unstyled">
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                                <li><i aria-hidden="true" class="fas fa-star"></i></li>
-                            </ul>
-                        </div>
+                <div class="col-md-6">
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Gia nhập thị trường, hoạt động cấp phép và thực hiện TTHC</p>
+                    </div>
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Tính minh bạch & ứng dụng công nghệ thông tin</p>
+                    </div>
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Tính năng động và tiên phong của chính quyền địa phương</p>
+                    </div>
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Chi phí TG thực hiện TTHC & tuân thủ pháp luật</p>
+                    </div>
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Chi phí không chính thức</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Cạnh tranh bình đẳng</p>
+                    </div>
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Hỗ trợ SXKD</p>
+                    </div>
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Vai trò của người đứng đầu tại địa phương</p>
+                    </div>
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Tiếp cận đất đai</p>
+                    </div>
+                    <div class="item ddci-item">
+                        <p class="para">&#x2022; Hiệu lực thực thi văn bản chính sách, thiết chế pháp lý & ANTTC</p>
                     </div>
                 </div>
             </div>
 
             <!--Testimonial Thumbs-->
-            <div class="owl-dots" id="testimonials-avatar">
-                <!--data-position[top,right,bottom,left]-->
+            <!-- <div class="owl-dots" id="testimonials-avatar">
                 <button class="owl-dot active" data-position="22%,auto,auto,5%">
-                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-1.png"></button>
+                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-9.png"></button>
                 <button class="owl-dot active" data-position="30%,auto,auto,16%">
                     <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-2.png"></button>
-                <button class="owl-dot active" data-position="auto,auto,38%,7%">
+                <button class="owl-dot active" data-position="46%,auto,38%,7%">
                     <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-3.png"></button>
                 <button class="owl-dot active" data-position="auto,auto,23%,18%">
-                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-7.png"></button>
-                <!--data-position[top,right,bottom,left]-->
+                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-4.png"></button>
+                <button class="owl-dot active" data-position="76%,auto,38%,7%">
+                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-4.png"></button>
+
                 <button class="owl-dot active" data-position="20%,19%,auto,auto">
                     <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-5.png"></button>
                 <button class="owl-dot active" data-position="28%,6%,auto,auto">
                     <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-6.png"></button>
                 <button class="owl-dot active" data-position="40%,15%,auto,auto">
-                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-4.png"></button>
+                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-7.png"></button>
                 <button class="owl-dot active" data-position="auto,21%,22%,auto">
-                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-2.png"></button>
-            </div>
+                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-8.png"></button>
+
+                <button class="owl-dot active" data-position="70%,8%,auto,auto">
+                    <img alt="image" src="<?php echo base_url() ?>/public/agency/img/avatar-8.png"></button>
+
+            </div> -->
         </div>
     </section>
     <!--Testimonial End-->
@@ -1052,11 +734,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="heading-area mx-570 pb-lg-5 mb-5">
-                        <span class="sub-title">We are megaone company</span>
-                        <h2 class="title mb-0">Our <span class="alt-color js-rotating">latest blogs,recent news</span>
-                            will
-                            keep
-                            everyone updated</h2>
+                        <h2 class="title mb-0"><span class="alt-color js-rotating">Tin tức, Thông báo</span></h2>
                     </div>
                 </div>
             </div>
@@ -1066,18 +744,18 @@
                 <div class="col-lg-4">
                     <div class="news-item">
                         <img alt="image" class="news-img"
-                            src="<?php echo base_url() ?>/public/agency/img/blog-news-1.jpg">
+                            src="<?php echo base_url() ?>/public/agency/img/blog-news-1.png">
                         <div class="news-text-box">
-                            <span class="date main-color">October 29, 2020</span>
+                            <span class="date main-color">10/08/2023</span>
                             <a href="<?php echo base_url() ?>/public/agency/blog-list.html">
-                                <h4 class="news-title">Web design is fun</h4>
+                                <h4 class="news-title">Tin số 1</h4>
                             </a>
-                            <p class="para">Lorem ipsum dolor sit amet consectetur adipiscing elit ipsum dolor sit am...
+                            <p class="para">Content
                             </p>
                             <a class="author d-flex align-items-center" href="javascript:void(0);">
                                 <img alt="image" class="author-img bg-blue"
-                                    src="<?php echo base_url() ?>/public/agency/img/avatar-1.png">
-                                <h5 class="author-name">Hena Sword</h5>
+                                    src="<?php echo base_url() ?>/public/agency/img/woman.png">
+                                <h5 class="author-name">Admin</h5>
                             </a>
                         </div>
                     </div>
@@ -1086,18 +764,18 @@
                 <div class="col-lg-4">
                     <div class="news-item">
                         <img alt="image" class="news-img"
-                            src="<?php echo base_url() ?>/public/agency/img/blog-news-2.jpg">
+                            src="<?php echo base_url() ?>/public/agency/img/blog-news-2.png">
                         <div class="news-text-box">
-                            <span class="date main-color">October 29, 2020</span>
+                            <span class="date main-color">10/08/2023</span>
                             <a href="<?php echo base_url() ?>/public/agency/blog-list.html">
-                                <h4 class="news-title">Future of websites</h4>
+                                <h4 class="news-title">Tin số 2</h4>
                             </a>
-                            <p class="para">Lorem ipsum dolor sit amet consectetur adipiscing elit ipsum dolor sit am...
+                            <p class="para">Tin số 2
                             </p>
                             <a class="author d-flex align-items-center" href="javascript:void(0);">
                                 <img alt="image" class="author-img bg-purple"
-                                    src="<?php echo base_url() ?>/public/agency/img/avatar-2.png">
-                                <h5 class="author-name">David Villas</h5>
+                                    src="<?php echo base_url() ?>/public/agency/img/man.png">
+                                <h5 class="author-name">Admin</h5>
                             </a>
                         </div>
                     </div>
@@ -1106,31 +784,51 @@
                 <div class="col-lg-4">
                     <div class="news-item">
                         <img alt="image" class="news-img"
-                            src="<?php echo base_url() ?>/public/agency/img/blog-news-3.jpg">
+                            src="<?php echo base_url() ?>/public/agency/img/blog-news-3.png">
                         <div class="news-text-box">
-                            <span class="date main-color">October 29, 2020</span>
+                            <span class="date main-color">10/08/2023</span>
                             <a href="javascript:void(0);">
-                                <h4 class="news-title">Digital marketing</h4>
+                                <h4 class="news-title">Tin số 3</h4>
                             </a>
-                            <p class="para">Lorem ipsum dolor sit amet consectetur adipiscing elit ipsum dolor sit am...
+                            <p class="para">Content ....
                             </p>
                             <a class="author d-flex align-items-center" href="javascript:void(0);">
                                 <img alt="image" class="author-img bg-pink"
-                                    src="<?php echo base_url() ?>/public/agency/img/avatar-5.png">
-                                <h5 class="author-name">Jhon Walker</h5>
+                                    src="<?php echo base_url() ?>/public/agency/img/man.png">
+                                <h5 class="author-name">Admin</h5>
                             </a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row wow fadeInUp" style="justify-content: end;">
+                <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white mt-4" href="javascript:void(0);">Xem
+                    thêm
+                    <div class="btn-hvr-setting">
+                        <ul class="btn-hvr-setting-inner">
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                        </ul>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
     <!--Blog End-->
 
     <!--Client Map-->
-    <section class="gradient-bg2" id="client">
-        <h2 class="d-none">hidden</h2>
+    <section id="client">
+        <!-- <h2 class="title">Đơn vị đồng hành</h2> -->
         <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="heading-area mx-570 pb-lg-5 mb-5">
+                        <h2 class="title mb-0">ĐƠN VỊ ĐỒNG HÀNH</h2>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-12">
                     <!--Client Slider-->
@@ -1147,6 +845,8 @@
                         <!--Item-->
                         <div class="logo-item"><img alt="client-logo"
                                 src="<?php echo base_url() ?>/public/agency/img/client-4.png"></div>
+                        <div class="logo-item"><img alt="client-logo"
+                                src="<?php echo base_url() ?>/public/agency/img/client-5.png"></div>
                     </div>
                 </div>
             </div>
@@ -1158,7 +858,12 @@
     <div class="p-0 gradient-bg2 map-area">
         <div class="container">
             <!--Map Initialize-->
-            <div class="full-map" id="map"></div>
+            <div class="full-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.6521467823104!2d107.99802207403312!3d13.979299091987873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316c1f8283a035b9%3A0x8b1bbf64eb942749!2zU-G7nyBL4bq_IEhv4bqhY2ggxJDhuqd1IFTGsCBU4buJbmggR2lhIExhaQ!5e0!3m2!1sen!2s!4v1691654173663!5m2!1sen!2s"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
     <!--Map End-->
@@ -1175,10 +880,7 @@
                         <div class="contact-dots" data-dots=""></div>
                         <!--Heading-->
                         <div class="heading-area pb-5">
-                            <h2 class="title mt-0 pb-1">Our Location</h2>
-                            <p class="para">There are many variations of passages of Lorem Ipsum available, but the
-                                majority
-                                have suffered .</p>
+                            <h2 class="title mt-0 pb-1">Thông tin</h2>
                         </div>
 
                         <!--Address-->
@@ -1186,20 +888,22 @@
                             <li>
                                 <span class="address-icon gradient-text2"><i aria-hidden="true"
                                         class="fas fa-map-marker-alt"></i></span>
-                                <span class="address-text">123 Park Avenue, New York,United States</span>
+                                <span class="address-text">2 Hoàng Hoa Thám, P.Tây Sơn, Thành phố Pleiku, Gia Lai
+                                    600000, Vietnam</span>
                             </li>
                             <li>
                                 <span class="address-icon gradient-text2"><i aria-hidden="true"
                                         class="fas fa-phone-volume"></i></span>
-                                <span class="address-text"><a class="mr-3" href="javascript:void(0)">+1 631 1234
-                                        5678</a><a href="javascript:void(0)">+1 631 1234 5678</a></span>
+                                <span class="address-text"><a class="mr-3" href="javascript:void(0)">02693824414</a><a
+                                        href="javascript:void(0)">02693824414</a></span>
                             </li>
                             <li>
                                 <span class="address-icon gradient-text2"><i aria-hidden="true"
                                         class="fas fa-paper-plane"></i></span>
                                 <span class="address-text"><a class="mr-3 alt-color"
-                                        href="javascript:void(0)">email@website.com</a><a class="mr-3 alt-color"
-                                        href="javascript:void(0)">abc@website.com</a></span>
+                                        href="javascript:void(0)">http://skhdt.gialai.gov.vn/</a><a
+                                        class="mr-3 alt-color"
+                                        href="javascript:void(0)">http://skhdt.gialai.gov.vn/</a></span>
                             </li>
                         </ul>
                     </div>
@@ -1208,7 +912,7 @@
                 <div class="col-lg-7 mt-4 pt-3 mt-lg-0 pt-lg-0 wow fadeInLeft">
                     <!--Heading-->
                     <div class="heading-area pb-2">
-                        <h2 class="title mt-0">Get In Touch</h2>
+                        <h2 class="title mt-0">Gửi liên hệ</h2>
                     </div>
                     <!--Contact Form-->
                     <form class="contact-form" id="contact-form-data">
@@ -1269,33 +973,30 @@
     <!--Contact End-->
 
     <!--Footer Start-->
-    <footer class="footer-style-1 bg-light">
+    <footer class="footer-style-1 gradient-bg1">
         <div class="container">
-            <div class="row align-items-center">
-                <!--Social-->
-                <div class="col-md-6">
-                    <div class="footer-social">
-                        <ul class="list-unstyled">
-                            <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                        class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                        class="fab fa-twitter"></i></a></li>
-                            <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                        class="fab fa-google-plus-g"></i></a></li>
-                            <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                        class="fab fa-linkedin-in"></i></a></li>
-                            <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                        class="fab fa-instagram"></i></a></li>
-                            <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                        class="fab fa-pinterest-p"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="row align-items-center ">
                 <!--Text-->
-                <div class="col-md-6 text-md-right">
-                    <p class="company-about fadeIn">© 2020 MegaOne. Made With Love By <a
-                            href="javascript:void(0);">Themesindustry</a>
+                <div class="col-md-6 text-md-left">
+                    <p class="company-about fadeIn mb-1">HỆ THỐNG ĐÁNH GIÁ NĂNG LỰC CẠNH TRANH
+                        CẤP SỞ BAN NGÀNH VÀ ĐỊA PHƯƠNG TỈNH GIA LAI(DDCI)
                     </p>
+                    <p class="company-about fadeIn mb-1"> Địa chỉ: Hoàng Hoa Thám, P.Tây Sơn, Thành phố Pleiku, Gia Lai
+                    </p>
+                    <p class="company-about fadeIn mb-1"> Điện thoại: 02693824414</p>
+                    <p class="company-about fadeIn mb-1">link: http://skhdt.gialai.gov.vn/</p>
+                </div>
+
+                <div class="col-md-3 text-md-left">
+                    <p class="company-about fadeIn mb-1">Giới thiệu
+                    </p>
+                    <p class="company-about fadeIn mb-1"> Hội đồng đánh giá</p>
+                    <p class="company-about fadeIn mb-1">Tin tức</p>
+                </div>
+                <div class="col-md-3 text-md-left">
+                    <p class="company-about fadeIn mb-1">Báo cáo thống kê
+                    </p>
+                    <p class="company-about fadeIn mb-1"> Khảo sát</p>
                 </div>
             </div>
         </div>

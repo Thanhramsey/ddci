@@ -34,6 +34,8 @@ $route['thong-tin-khach-hang'] = 'thongtin/index';
 $route['search?(:any)'] = 'search/index/$1';
 $route['search?(:any)/(:num)'] = 'search/index/$1';
 $route['gioi-thieu'] = 'gioithieu/index';
+$route['hoi-dong-danh-gia'] = 'gioithieu/hoidongdanhgia';
+$route['hoi-dong-danh-gia/(:num)'] = 'gioithieu/hoidongdanhgia/$1';
 $route['account/orders/(:num)'] = 'thongtin/order';
 $route['account/orders/update/(:num)'] = 'thongtin/update/(:num)';
 $route['reset_password'] = 'thongtin/reset_password';
@@ -108,6 +110,7 @@ $route['sliders/restore/(:num)'] ='sliders/restore/$1';
 
 $route['admin/customer'] ='admin/customer';
 $route['admin/customer/(:num)'] ='admin/customer/index/$1';
+$route['admin/customer/insert'] ='admin/customer/insert';
 $route['customer/update/(:num)'] ='customer/update/$1';
 $route['customer/status/(:num)'] ='customer/status/$1';
 $route['customer/recyclebin'] ='customer/recyclebin';

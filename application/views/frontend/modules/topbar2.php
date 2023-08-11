@@ -10,12 +10,12 @@
             <!--Nav Links-->
             <div class="collapse navbar-collapse" id="agency">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link link active" href="">Trang chủ</a>
-                    <a class="nav-link link" href="gioi-thieu">Giới thiệu</a>
-                    <a class="nav-link link" href="hoi-dong-danh-gia">Hội đồng đánh giá</a>
-                    <a class="nav-link link " href="#blog">Tin tức</a>
-                    <a class="nav-link link " href="#blog">Báo cáo, thống kê</a>
-                    <a class="nav-link link " href="#contact">Liên Hệ</a>
+                    <a class="nav-link link scroll active" href="#home">Trang chủ</a>
+                    <a class="nav-link link scroll" href="#about-us">Giới thiệu</a>
+                    <a class="nav-link link scroll" href="#team">Hội đồng đánh giá</a>
+                    <a class="nav-link link scroll" href="#blog">Tin tức</a>
+                    <a class="nav-link link scroll" href="#blog">Báo cáo, thống kê</a>
+                    <a class="nav-link link scroll" href="#contact">Liên Hệ</a>
                     <span class="menu-line"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
                 </div>
             </div>

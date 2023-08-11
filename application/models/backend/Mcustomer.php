@@ -15,6 +15,7 @@ class Mcustomer extends CI_Model {
         $query = $this->db->get($this->table, $limit, $first);
         return $query->result_array();
     }
+    
 
     public function customer_count()
     {
@@ -63,6 +64,11 @@ class Mcustomer extends CI_Model {
     {
         $this->db->where('id',$id);
         $this->db->update($this->table, $mydata);
+    }
+
+
+    public function customer_insert($data){
+        $this->db->insert($this->table, $data);
     }
 
 }
